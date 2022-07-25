@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900');
+body {
+	font-family: 'Lato', sans-serif;
+	background: rgb(255, 255, 255	);
+}
+.btn-primary:focus {
+	outline: 0;
+	box-shadow: none !important;
+}
+.form-control:focus {
+	box-shadow: none;
+	outline: 0;
+}
+.form-control {
+	font-size: 14px;
+	color: #282828;
+	background: #FFFFFF;
+	border: 1px solid #c7c7c7;
+	padding: 10px;
+	width: 100%;
+	border-radius: 5px;
+}
+a:hover, btn-primary:hover {
+	background: #0091bc !important;
+	transition: 0.3s;
+}
+header {
+	padding: 10px;
+}
+header img {
+	max-width: 120px;
+}
+header p {
+	font-size: 16px;
+	color: #333;
+	text-align: right;
+	margin-bottom: 0px;
+}
+header .call {
+	text-align: right;
+	float: right;
+	font-weight: 600;
+	color: inherit;
+}
+header .call a {
+	color: inherit;
+	font-weight: 400;
+}
+header .call a:hover{
+	background: none !important;
+}
+header .nav-link {
+	position: relative;
+	top: 39px;
+	background: #0696da;
+	float: left;
+	color: #fff !important;
+	border-radius: 4px;
+	transition: 0.3s;
+}
+header .nav-link:hover {
+	cursor: pointer;
+}
+
+.landing-box {
+	width: 100%;
+	float: left;
+	background-image:url('/images/frontpage/landing-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 450px;
+}
+.landing-inner {
+	width: 100%;
+	padding-top: 60px;
+	color: #fff;
+}
+.landing-inner h5 {
+	font-size: 30px;
+}
+.landing-inner ul {
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.landing-inner ul li {
+	/*    list-style-type: circle;*/
+	font-size: 18px;
+	line-height: 40px;
+}
+.btn-primary {
+	font-size: 15px;
+	background: #0896da;
+	border: 0px;
+	margin-top: 20px;
+	transition: 0.3s;
+}
+.landing-inner .btn-primary i {
+	font-weight: 700;
+	padding-left: 5px;
+	position: relative;
+}
+.info-text {
+	width: 100%;
+	float: left;
+	padding: 40px 0px;
+}
+.info-text p {
+	color: #333;
+	line-height: 30px;
+	text-align: justify;
+}
+.login-wrapper {
+	width: 100%;
+	float: left;
+	background: #f3f3f3;
+	padding: 50px 0px;
+	border-top: 1px solid #ddd;
+}
+.login-wrapper h4 {
+	font-size: 21px;
+	text-align: center;
+	font-weight: 600;
+	color: #2d3031;
+}
+.login-wrapper h5 {
+	text-align: center;
+	color: #0696da;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+}
+.login-wrapper form {
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	margin-top: 30px;
+}
+.login-wrapper form a {
+	float: right;
+	color: #0696da !important;
+	transition: 0.3s;/*    margin-bottom: 30px;*/
+}
+.login-wrapper .btn-primary {
+	margin: 20px auto;
+	display: block;
+	min-width: 120px;
+}
+footer {
+	width: 100%;
+	float: left;
+	text-align: center;
+	border-top: 1px solid #ddd;
+	padding: 20px 0px;
+}
+footer p {
+	margin-bottom: 0px;
+}
+.form-box{
+	width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+@media (max-width:768px) {
+header p {
+	text-align: center !important;
+	float: none !important;
+    font-size: 14px;
+}
+header img {
+	max-width: 95px;
+}
+header .nav-link {
+	top: 29px;
+}
+.landing-inner h5 {
+	font-size: 25px;
+}
+.landing-inner ul li {
+	font-size: 16px;
+	line-height: 30px;
+}
+.landing-box {
+	min-height: auto;
+	padding: 20px;
+}
+.landing-inner {
+	padding-top: 0px;
+}
+.login-wrapper h4 {
+	font-size: 17px;
+}
+}
+
+.error-template{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.error-template img{
+    max-width: 400px;
+}
+.error-template .error-details{
+    font-size: 18px;
+    color: #636262;
+}
+.error-template .btn-primary{
+    background: #daab32;
+}
+.error-template .btn-primary:hover{
+    background: #9dcbfa!important;
+}

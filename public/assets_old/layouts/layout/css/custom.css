@@ -1,0 +1,166 @@
+/* here you can put your own css to customize and override the theme */
+
+.action-btns{
+    font-size: 15px;
+    color: #333 ;
+    padding: 0px 5px;
+}
+
+.main-section {
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    position: relative;
+}
+.current-body{
+    border: 0px !important;
+    padding: 0px !important;
+}
+.main-section .headingpage {
+    margin-bottom: 0px;
+}
+.main-section .headingpage .btn-link {
+    padding: 0;
+    margin-right: 8px;
+}
+.goal-main-list .headingpage i {
+    top: 0px;
+    font-size: 16px;
+}
+.headingpage span {
+    font-weight: 300;
+    padding: 0 15px;
+}
+.main-head-box .basic-btn {
+    margin-top: -4px;
+    float: right;
+}
+.main-section-inner {
+    width: 100%;
+    float: left;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+.main-section button.collapsed .fa-minus-square::before {
+    content: "\f0fe";
+}
+.main-section .table-responsive table th {
+    background: #cbced2;
+    border: 0px;
+}
+span.dotty {
+    width: 19px;
+    height: 19px;
+    background: #0ec74f;
+    border-radius: 50% !important;
+    float: right;
+    position: relative;
+    top: 2px;
+    right: 14px;
+}
+
+.table-select{
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+.table-select select{
+    padding: 0px 8px;
+    height: 30px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+    float: right;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.sliding {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.sliding:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .sliding {
+    background-color: #28c74f;
+}
+
+input:focus + .sliding {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .sliding:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+}
+
+/* Rounded slidings */
+.sliding.round {
+    border-radius: 34px!important;
+}
+
+.sliding.round:before {
+    border-radius: 50%!important;
+}
+.role-table {
+    margin-bottom: 0px!important;
+}
+.role-table thead tr th:last-child{
+    text-align: right;
+}
+
+/*model-overflow*/
+
+.model-overflow p span {
+    float: right;
+    width: 76%;
+}
+.model-overflow p {
+ overflow: auto;
+}
+.m-b-0 {
+    margin-bottom: 0;
+}
+.break-word {
+   word-break: break-all;
+}
+.FAQ-editor .ck-editor__editable_inline {
+    min-height: 170px!important;
+    max-height: 170px!important;
+}
+.content-editor .ck-editor__editable_inline {
+    min-height: 250px!important;
+    max-height: 250px!important;
+}

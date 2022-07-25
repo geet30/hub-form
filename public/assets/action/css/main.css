@@ -1,0 +1,1407 @@
+    @charset "utf-8";
+    /* CSS Document */
+    
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Lato', sans-serif;
+        background: #e4e7ea;
+    }
+    
+    a:hover {
+        text-decoration: none
+    }
+    
+    .main {
+        width: 100%;
+        float: left;
+    }
+    
+    .adinfull {
+        width: 100%;
+        padding: 15px;
+        background: #e4e7ea;
+    }
+    
+    .addinname h1 {
+        font-size: 23px;
+        float: left;
+        font-weight: bold;
+    }
+    
+    .uploaddocadin {
+        float: right;
+        width: auto;
+    }
+    
+    .uploaddocadin button {
+        background: #ef7e3b;
+        border: none;
+        padding: 10px 20px;
+        color: #fff;
+        outline: none;
+        margin-left: 10px;
+    }
+    
+    button.blue-btn {
+        background-color: #29C0D4;
+        border-color: #29C0D4;
+    }
+    
+    button.cancel-btn {
+        background: #e4e7ea;
+        border-color: #e4e7ea;
+        color: #212529;
+    }
+    
+    .editlogic {
+        float: left;
+        width: 100%;
+        background: #fcfcfc;
+        padding: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .variable-type-sub {
+        float: left;
+        width: 26%;
+        padding-right: 15px;
+    }
+    
+    .addinname {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .card-header button i.fas.fa-caret-down {
+        display: inline-block;
+    }
+    
+    .card-header button i.fas.fa-caret-right {
+        display: none;
+    }
+    
+    .card-header button.collapsed i.fas.fa-caret-down {
+        display: none;
+    }
+    
+    .card-header button.collapsed i.fas.fa-caret-right {
+        display: inline-block;
+    }
+    
+    .collaspeinner .btn-link {
+        font-weight: 400;
+        color: #21252a;
+        background-color: transparent;
+        text-decoration: none;
+        padding: 0;
+        font-size: 16px;
+        width: auto;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    a.scopeadd {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        color: #29c0d4;
+    }
+    
+    .collaspeinner .btn-link i {
+        float: left;
+        margin-right: 10px;
+        line-height: 22px;
+    }
+    
+    .card {
+        background-color: #fcfcfc;
+    }
+    
+    .userimg {
+        margin-bottom: 20px;
+        float: left;
+    }
+    
+    .userimg img {
+        float: left;
+        max-width: 100px;
+    }
+    
+    select {
+        -moz-appearance: none !important;
+        background-image: url(../images/drop.png)!important;
+        background-position: 90% 51%;
+        background-repeat: no-repeat;
+        border: medium none;
+        color: #868686;
+        cursor: pointer;
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        border-radius: 0px;
+        font-size: 14px;
+        border: 1px solid #EEEEEE;
+        letter-spacing: 0.5px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .collaspeinner h5 span i {
+        float: revert;
+        font-size: 14px;
+        margin-left: 8px;
+        color: #29c0d4;
+    }
+    
+    .question-main-sec {
+        float: left;
+        width: 100%;
+        border-radius: 5px;
+        background: #fff;
+        margin-bottom: 15px;
+    }
+    
+    .question-action {
+        float: left;
+        width: 80px;
+        padding: 10px;
+    }
+    
+    .question-data {
+        float: left;
+        width: 91%;
+        padding: 20px;
+        position: relative;
+        border-left: 1px solid #EEEEEE;
+    }
+    
+    span.question-serial {
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        font-size: 16px;
+        color: #175D7D;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    
+    button.action-edit {
+        background: no-repeat;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        outline: none;
+        color: #282828;
+    }
+    
+    button.action-edit i {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        padding-bottom: 5px;
+        color: #F29757;
+        font-size: 18px;
+    }
+    
+    .namerinterviewfield {
+        float: left;
+        width: 100%;
+    }
+    
+    input[type=text] {
+        font-size: 14px;
+        color: #282828;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        padding: 10px;
+        padding-right: 35px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .variable-type {
+        float: left;
+        width: 100%;
+        padding-top: 15px;
+    }
+    
+    .variable-type-sub {
+        float: left;
+        width: 26%;
+        padding-right: 15px;
+    }
+    
+    .yesnobutton {
+        float: left;
+        width: 100%;
+    }
+    
+    button.yesbutton {
+        float: left;
+        width: 100%;
+        padding: 8px 8px;
+        border: none;
+        color: #212529;
+        outline: none;
+    }
+    
+    button.nobutton {
+        float: left;
+        width: 100%;
+        padding: 8px 8px;
+        border: none;
+        color: #212529;
+        outline: none;
+    }
+    
+    button.nobutton:focus {
+        background: #ef8181;
+        color: #fff;
+    }
+    
+    button.yesbutton:focus {
+        background: #4e925c;
+        color: #fff;
+    }
+    
+    a.scrorebtn {
+        float: right;
+        background: #29c0d4;
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 15px;
+        /* line-height: 14px; */
+        position: absolute;
+        right: 10px;
+        top: -5px;
+    }
+    
+    a.scrorebtn.morebtn {
+        right: 90px;
+    }
+    
+    .questionul {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .questionul li {
+        float: left;
+        width: 20%;
+        list-style: none;
+        text-align: center;
+        border-right: 1px solid #d6d6d6;
+    }
+    
+    .questionul li:last-child {
+        border: none;
+    }
+    
+    .questionul ul {
+        float: left;
+        width: 100%;
+        margin: 0;
+        background: #e7f5f7;
+        padding: 10px;
+    }
+    
+    .questionul li a {
+        color: #21252a;
+    }
+    
+    .questionul li a i {
+        color: #29c0d4;
+        padding-right: 5px;
+    }
+    
+    .question-delete {
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.09);
+        width: 45px;
+        height: 45px;
+        background: #fff;
+        position: absolute;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 50%;
+        color: #b73e3f;
+        right: 8px;
+        top: 13px;
+        font-size: 16px;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        select {
+            background-image: none !important;
+        }
+    }
+    
+    select {
+        -moz-appearance: none !important;
+        background-image: url(../images/drop.png)!important;
+        background-position: 96% 51%;
+        background-repeat: no-repeat;
+        border: medium none;
+        color: #292929;
+        cursor: pointer;
+        -webkit-appearance: none !important;
+        appearance: none !important;
+        border-radius: 5px;
+        font-size: 14px;
+        border: 1px solid #EEEEEE;
+        letter-spacing: 0.5px;
+        padding: 10px;
+        width: 100%;
+        background-color: #fff;
+        outline: none;
+    }
+    
+    select {
+        -moz-appearance: none !important;
+        background-image: url(../images/drop.png)!important;
+        background-position: 96% 51%;
+    }
+    
+    @media all and (-ms-high-contrast: none),
+    (-ms-high-contrast: active) {
+        select {
+            background-image: none !important;
+        }
+    }
+    
+    .filterwidth {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    input[type=text] {
+        font-size: 14px;
+        color: #282828;
+        background: #FFFFFF;
+        border: 1px solid #EEEEEE;
+        padding: 10px;
+        padding-right: 35px;
+        width: 100%;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .card-header {
+        border-bottom: 0;
+    }
+    
+    .adinbutton {
+        text-align: right;
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .adinbutton button {
+        background: #29c0d4;
+        border: none;
+        padding: 10px 30px;
+        color: #fff;
+        outline: none;
+    }
+    
+    .card {
+        margin-bottom: 10px;
+    }
+    
+    .buttonsvaribale {
+        float: left;
+        width: 100%;
+    }
+    
+    .buttonsvaribale button {
+        float: left;
+        width: 100%;
+        background: #175D7D;
+        border: none;
+        border-radius: 5px;
+        padding: 6px 30px;
+        color: #fff;
+        outline: none;
+        cursor: pointer;
+        margin: 4px 0;
+    }
+    
+    .legalremindersub {
+        float: left;
+        width: 100%;
+        position: relative;
+        font-size: 14px;
+        padding: 15px;
+        padding-right: 60px;
+        background: #f8f8f8;
+        margin-bottom: 20px;
+    }
+    
+    .actionlegal {
+        position: absolute;
+        top: 15px;
+        right: 5px;
+    }
+    
+    .actionlegal button {
+        background: no-repeat;
+        border: none;
+        margin: 0;
+        padding: 0 5px;
+    }
+    
+    i.fas.fa-trash {
+        color: #c52222;
+    }
+    
+    .legalremindersub p {
+        margin: 0;
+    }
+    
+    .addnewitemtext {
+        float: right;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 12px;
+        color: #175d7d;
+    }
+    
+    .addnewitemtext a {
+        color: #175d7d;
+    }
+    
+    .filterwidth textarea {
+        width: 100%;
+        display: inline-block;
+        resize: none;
+        border: 1px solid #EEEEEE;
+        border-radius: 5px;
+        min-height: 100px;
+        padding: 10px;
+        outline: none;
+    }
+    
+    .clausetabs {
+        float: left;
+        width: 100%;
+    }
+    
+    .clausetabs ul a.nav-link {
+        color: #175D7D;
+    }
+    
+    .clausetabs ul a.nav-link.active {
+        background: #ef7e3b;
+        color: #fff;
+    }
+    
+    .clausetabinner {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px;
+        background: #fff;
+    }
+    
+    span.inputicons {
+        position: absolute;
+        right: 9px;
+        top: 9px;
+        color: #7E7E7E;
+    }
+    
+    .collaspeinner.clausesaccordin .card-header {
+        text-align: left;
+        background: none;
+        border-bottom: 1px solid #175d7d;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .collaspeinner.clausesaccordin .card {
+        border: none;
+        float: left;
+        width: 100%;
+    }
+    
+    .collaspeinner.clausesaccordin .card-header h5 button {
+        text-align: left;
+    }
+    
+    .clausesaccordin .panel-group {
+        padding: 0;
+        padding-top: 10px;
+        background: #DBF0FF;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        color: #175D7D;
+        margin-top: 10px;
+    }
+    
+    .clausesaccordin .card-body {
+        padding: 0;
+    }
+    
+    .clausesaccordin .card-body h4 {
+        font-size: 16px;
+        color: #175D7D;
+        margin: 0;
+    }
+    
+    .clausesaccordin .card-body h4 a {
+        color: #175D7D;
+        width: 100%;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    .clausesaccordin .card-body h4 i {
+        float: right;
+    }
+    
+    i.fas.fa-plus.addicon {
+        font-size: 13px;
+        padding-right: 10px;
+        line-height: 20px;
+        color: #ef7d3b;
+    }
+    
+    .clausesaccordin .card-body p {
+        font-size: 13px;
+        color: #757575;
+        padding: 10px 0;
+        margin: 0;
+    }
+    
+    .clausesaccordin .card-body .panel-body {
+        border-top: 1px solid #175d7d;
+        font-size: 13px;
+        padding: 10px 0;
+        color: #212529;
+    }
+    
+    .legalcheck {
+        position: absolute;
+        left: 15px;
+        top: 16px;
+    }
+    
+    .legalremindersub.clauselegal {
+        padding-left: 35px;
+    }
+    
+    .submitbutton button {
+        background: #175D7D;
+        padding: 10px 25px;
+        font-size: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .submitbutton {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .addquestion-sub {
+        float: left;
+        width: 14%;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #EEEEEE;
+        font-size: 14px;
+        background: #fff;
+    }
+    
+    .customcheckboxmain {
+        float: left;
+        width: 100%;
+        margin-top: 0;
+        font-size: 16px;
+    }
+    
+    .customcheckboxmain input {
+        /* float: left; */
+        margin-right: 10px;
+        display: inline-block;
+    }
+    
+    @media (max-width: 1024px) {
+        .question-data {
+            width: 87%;
+        }
+    }
+    
+    .addquestion button {
+        background: #29c0d4;
+        border: none;
+        padding: 10px 30px;
+        color: #fff;
+        outline: none;
+        float: right;
+        margin-bottom: 20px;
+    }
+    
+    button.addquestionbutton {
+        background: #29c0d4;
+        border: none;
+        padding: 10px 30px;
+        color: #fff;
+        outline: none;
+        float: left;
+    }
+    
+    .addquestion-area {
+        border-radius: 5px;
+        width: 100%;
+        float: left;
+        display: none;
+        margin-bottom: 20px;
+    }
+    
+    .dropup.more-btn .dropdown-toggle::after {
+        display: none;
+    }
+    
+    .dropdown.more-btn.dropup button {
+        float: right;
+        background: #29c0d4;
+        font-size: 16px;
+        color: #fff;
+        position: absolute;
+        right: 90px;
+        top: -5px;
+        border-radius: 0;
+        line-height: initial;
+        border: none;
+        outline: none;
+        padding: 10px 15px;
+    }
+    
+    .dropdown.more-btn.dropup {
+        position: absolute !important;
+        left: 0;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+    
+    .dropdown.more-btn.dropup button:focus {
+        box-shadow: none;
+    }
+    
+    .dropdown-item {
+        cursor: pointer;
+    }
+    
+    a.dropdown-item.deletelist {
+        color: #e86767;
+    }
+    
+    a.dropdown-item.deletelist:hover {
+        color: #e86767;
+    }
+    
+    .templatenameshow {
+        float: left;
+        width: auto;
+    }
+    
+    .templatenameshow span {
+        float: left;
+        width: auto;
+    }
+    
+    .templatenameshow span {
+        background: #e7f5f7;
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-right: 10px;
+        border-radius: 50px;
+        color: #188b9a;
+    }
+    
+    .filterwidth label {
+        width: 100%;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .textareadiv {
+        min-height: 100px;
+        background: #fff;
+        border-radius: 5px;
+        border: 1px solid #EEEEEE;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 14px;
+        color: #21252a;
+    }
+    
+    .namerinterviewfield p {
+        margin: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #29c0d4;
+    }
+    
+    .nameofbox {
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .nameofbox h6 {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        background: #e7f5f7;
+        padding: 10px;
+    }
+    
+    .nameofbox p {
+        font-size: 14px;
+        padding: 10px;
+        float: left;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .media-div {
+        float: left;
+        width: 100px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    
+    .media-div img {
+        float: left;
+        width: 100%;
+    }
+    
+    .marksdiv {
+        float: right;
+        position: relative;
+    }
+    
+    .marksdiv p {
+        background: #c9e0ca;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 48px;
+        color: #319a05;
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+        right: 0;
+    }
+    /*----- form report-----*/
+    
+    .blue-btn {
+        background-color: #29C0D4;
+        border-color: #29C0D4;
+        border: none;
+        padding: 10px 20px;
+        color: #fff;
+        outline: none;
+        margin-left: 10px;
+    }
+    
+    .reportsetup {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        padding-bottom: 15px;
+    }
+    
+    .reportext {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+    }
+    
+    .score-action-item {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        background: #e7f5f7;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    .score-action-item-small {
+        float: left;
+        width: 33%;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .score-action-item-small span {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        font-size: 20px;
+        color: #188b99;
+    }
+    
+    .score-action-item-small.border-left-right {
+        border-left: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+    
+    .reportsections {
+        float: left;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+    }
+    
+    .reportsections label {
+        float: left;
+        width: 100%;
+        font-size: 14px;
+        margin: 0;
+    }
+    
+    .reportsections span {
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+    }
+    
+    p.textreport {
+        font-size: 14px;
+        float: left;
+        width: 100%;
+        margin: 0;
+        color: #21252a;
+        font-weight: normal;
+    }
+    
+    .question-data.faileditems {
+        width: 100%;
+    }
+    
+    .marksdiv.failedscoreitem p {
+        background: #ffd5d5;
+        color: #af4646;
+    }
+    
+    .textno {
+        float: left;
+        width: auto;
+        padding: 5px 30px;
+        background: #ffd5d5;
+        color: #af4645;
+        margin-top: 15px;
+        border-radius: 5px;
+    }
+    
+    .textno.progresstext {
+        background: #fff9cb;
+        color: #ab9e3c;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .dateinprogress {
+        float: left;
+        width: auto;
+        margin: 15px 15px;
+        color: #ab9e3c;
+    }
+    
+    .dateinprogress i {
+        padding-right: 8px;
+    }
+    
+    .question-heading {
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+        border-top: 1px solid #EEEEEE;
+        margin-top: 15px;
+    }
+    
+    .marksdiv.bluescore p {
+        background: #e7f5f7;
+        color: #1c8d9b;
+    }
+    
+    .buttoncomplaint {
+        float: left;
+        width: 100%;
+        padding: 15px 0;
+        padding-bottom: 0;
+    }
+    
+    .buttoncomplaint button {
+        margin-left: 0;
+    }
+    
+    .namerinterviewfield p.textreport {
+        font-size: 16px;
+    }
+    
+    .fiterdiv {
+        float: left;
+        width: 100%;
+    }
+    
+    .fiterdiv h1 {
+        font-size: 16px;
+        font-weight: bold;
+        color: #29c0d4;
+        width: 100%;
+        float: left;
+    }
+    
+    .filterbutton {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .filterbutton button {
+        margin: 0;
+    }
+    
+    span.scoretextmain {
+        float: right;
+        font-size: 16px;
+        padding-top: 5px;
+        color: #29c0d4;
+    }
+    
+    button:focus {
+        outline: none;
+    }
+    
+    .editlogic {
+        text-align: right;
+    }
+    
+    .reportsetup.actionheadingtext span {
+        float: right;
+        width: 100%;
+        font-weight: normal;
+        font-size: 14px;
+        border-bottom: 1px solid #D0D0D0;
+        padding-bottom: 10px;
+    }
+    /*----action----*/
+    
+    .chatSection {
+        float: left;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0 40px;
+    }
+    
+    .rightChat {
+        float: right;
+        min-width: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .innerLeftChat {
+        padding: 15px;
+        background: #29c0d4;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fff;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+    .innerRightChat {
+        padding: 15px;
+        background: #29d476;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fff;
+        float: left;
+        text-align: left;
+        width: 100%;
+        
+    }
+    
+    .namechatperson {
+        float: left;
+        width: 100%;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: left;
+    }
+    
+    span.timingChat {
+        float: left;
+        width: 100%;
+        text-align: right;    
+    }
+    
+    .mediaTime {
+        color: #000;
+    }
+    .SendChat {
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    textarea.inputsectionChat {
+        background: #FFFFFF;
+        border: 1px solid #D0D0D0;
+        border-radius: 5px;
+        height: 70px;
+        width: 100%;
+        resize: none;
+        float: left;
+        padding: 20px;
+        padding-left: 60px;
+        font-size: 13px;
+        line-height: 25px;
+    }
+    
+    .clipImage {
+        position: absolute;
+        top: 20px;
+        left: 28px;
+    }
+    
+    .clipImage img {
+        width: 25px;
+    }
+    
+    .sendChatBtn {
+        position: absolute;
+        top: 17px;
+        right: 20px;
+    }
+    
+    .sendChatBtn img {
+        width: 35px;
+    }
+    
+    .chatheading {
+        float: left;
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+    }
+    
+    .chatheading i {
+        font-size: 16px;
+        padding-left: 5px;
+        color: #29c0d4;
+    }
+    
+    .chatheading2 {
+        float: left;
+        text-align: left;
+        width: 100%;
+        padding: 5px 0;
+        padding-left: 5px;
+        position: relative;
+    }
+    
+    .chatheading2 i {
+        padding-left: 5px;
+        color: #29c0d4;
+    }
+    
+    .chatheading2 span {
+        float: left;
+        margin-top: 4px;
+    }
+    
+    .chatheading2 input {
+        float: left;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    
+    .actionfiter label {
+        text-align: left;
+        width: 100%;
+    }
+    
+    .actionfiter {
+        float: left;
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .actionfiter .uploaddocadin {
+        float: left;
+        width: auto;
+    }
+    
+    .deatilsaction {
+        float: left;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        border-bottom: 1px solid #D0D0D0;
+        padding-bottom: 10px;
+        margin-top: 15px;
+    }
+    
+    .actionfitertwo {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    .actionfitertwo label {
+        margin-bottom: 5px;
+    }
+    
+    .actionfitertwo .filterwidth {
+        margin: 0;
+    }
+    
+    .actionfitertwo {
+        float: left;
+        text-align: left;
+    }
+    
+    .chatsection {
+        float: left;
+        width: 100%;
+        max-height: 584px;
+        overflow: auto;
+        bottom: 0;
+    }
+
+    /*********Create Action Fix css****/
+
+    .page-header.navbar .page-logo .logo-default {
+     font-size: 24px;
+    }
+
+    .page-sidebar.navbar-collapse.collapse {
+        margin-top: 0;
+    }
+
+    .chatsection:focus {
+        outline: none;
+    }
+
+    textarea.inputsectionChat:focus {
+        outline: none;
+    }
+    
+    .actionError span {
+    float: left;
+    }
+
+    .actionfiter .uploaddocadin {
+        float: left;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .actionfiter .uploaddocadin button {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .leftChat {
+        float: left;
+        min-width: 500px;
+        margin-bottom: 20px;
+    }
+
+
+    .innerleftChat {
+        padding: 15px;
+        background: #c2c9ca;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #fff;
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
+
+    .innerChatAction {
+    padding: 15px;
+    background: #64c16f7d;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #fff;
+    float: left;
+    text-align: center;
+    width: 75%;
+    margin-left: 105px;
+    margin-bottom: 15px;
+}
+
+.swal-button--confirm {
+    background-color: #DD6B55;
+  }
+
+  .swal-icon--success__ring {
+    width: 80px;
+    height: 80px;
+    border: 4px solid hsla(98,55%,69%,.2);
+    border-radius: 50% !important;
+    box-sizing: content-box;
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    z-index: 2;
+}
+
+.swal-icon {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50% !important;
+    padding: 0;
+    position: relative;
+    box-sizing: content-box;
+    margin: 20px auto;
+}
+
+.swal-icon--success__line {
+    height: 5px;
+    background-color: #a5dc86;
+    display: block;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+i#titleEdit {
+    cursor: pointer;
+}
+
+
+i#editDescription {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.mediaChatBg {
+    background-color: #fff;
+}
+
+.mediaFile {
+    width: 75px;
+    height: 75px;
+}
+
+.mediaName {
+    color:#000000;
+    font-size:14px;
+    padding:10px;
+}
+
+.mediaSection li {
+    display:inline-block;
+    text-decoration:none;
+
+}
+
+.removePreviewDynamic {
+    width: 130px;
+    color: red;
+    font-size: 15px;
+    background-color: white;
+    margin-top:10px;
+}
+.removePreviewDynamic:hover {
+    color: red;
+}
+.removePreviewDynamic i {
+    color: red;
+}
+
+#preview_image {
+    width: 150px;
+    height: 150px;
+    padding: 14px 6px;
+}
+
+#actionComplete {
+    padding: 10px 9px;
+}
+
+i#titleEdit {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.chatheading section, .chatheading2 section{
+    word-break: break-word;
+    margin-right: 30px;
+}
+
+.chat-sidebar {
+    text-align: left !important;
+}
+
+.back-btn{
+    float: right;
+    margin-top: 5px;
+}
+.created_by{
+    height: auto;
+}
+
+.detail_sec{
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid #D0D0D0;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

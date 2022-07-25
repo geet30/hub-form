@@ -1,0 +1,57 @@
+
+first we will do work on milestone_one
+
+1st - we will commit on milestone_one  and push code
+
+2nd - git checkout development
+
+3rd - commit and push
+
+
+after that 
+
+this for development
+
+push changes are there on bitbucket on dev branch
+
+5th - open ssh through putty
+
+6th - go to dev>code
+
+7th - git pull
+
+8th - password - Debut@1993
+
+9th - confirm changes and test 
+
+:wq
+
+
+after that 
+
+Now for QA:
+
+push changes are there on bitbucket on Qa branch
+
+10th - go to qa>code
+
+11th - git pull
+
+12th - password - Debut@1993
+
+13th - confirm changes and test 
+
+:wq
+
+
+
+after that 
+
+
+Now for Live server
+
+git checkout master
+
+git pull
+
+

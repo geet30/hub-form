@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "git": {
+        "name": ".",
+        "remote": "https://github.com/googleapis/google-cloud-php.git",
+        "sha": "5f6e6657a5bc7d63582fd5b2d61bdbcc735cb5a7"
+      }
+    },
+    {
+      "git": {
+        "name": "googleapis",
+        "remote": "https://github.com/googleapis/googleapis.git",
+        "sha": "f0d92d22e675c93125f8a7abd10dc01b891c3bcf",
+        "internalRef": "332061108"
+      }
+    },
+    {
+      "git": {
+        "name": "synthtool",
+        "remote": "https://github.com/googleapis/synthtool.git",
+        "sha": "dba48bb9bc6959c232bec9150ac6313b608fe7bd"
+      }
+    }
+  ],
+  "destinations": [
+    {
+      "client": {
+        "source": "googleapis",
+        "apiName": "dlp",
+        "apiVersion": "v2",
+        "language": "php",
+        "generator": "bazel"
+      }
+    }
+  ]
+}

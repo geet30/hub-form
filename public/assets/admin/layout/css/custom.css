@@ -1,0 +1,166 @@
+/* here you can put your own css to customize and override the theme */
+
+body {
+  background-color: #29C0D4 !important;
+}
+/*********** header *********/
+.page-header.navbar {
+  background-color: #ffffff;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
+  color: #636e7b;
+}
+.dropdown-user.dropdown-menu-default{
+  background: #29C0D4 !important;
+}
+/*********** header *********/
+
+/***** sidebar ****/
+.nav-bracket > li.active > a {
+  box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+}
+
+.page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active.open > a{
+  background-color: #ffffff;
+  color: #000000;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a{
+  background-color: #29C0D4;
+  color: #ffffff;
+}
+
+.page-sidebar .page-sidebar-menu > li.active > a > i, .page-sidebar .page-sidebar-menu > li.active.open > a > i{
+  color: #000000;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i{
+  background-color: #29C0D4;
+  color: #ffffff;
+}
+
+.page-sidebar .page-sidebar-menu > li.active > a > .arrow:before, .page-sidebar .page-sidebar-menu > li.active > a > .arrow.open:before, .page-sidebar .page-sidebar-menu > li.active.open > a > .arrow:before, .page-sidebar .page-sidebar-menu > li.active.open > a > .arrow.open:before{
+  color: #000000;
+}
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li > a, .page-sidebar .page-sidebar-menu .sub-menu > li > a {
+    color: #ffffff;
+}
+.start.arrow{
+  color: #ffffff !important;
+}
+.page-sidebar .page-sidebar-menu > li.active > a:hover{
+  background-color: #ffffff !important;
+}
+/***** sidebar ****/
+
+/**** footer ******/
+.page-footer .page-footer-inner {
+  color: #ffffff;
+}
+/**** footer ******/
+
+
+/**** datepicker ****/
+
+.datepicker table td {
+	cursor: pointer;
+}
+
+.datepicker table td.disabled{
+  color: #dddddd;
+}
+/**** Complated forms ******/
+#completed_forms{
+  display: none;
+}
+.pre_loader{
+text-align:center;
+min-height: 600px;
+margin-top: 100px;
+}
+.question-data-view{
+  float: left;
+  width: 84%;
+  padding: 10px;
+  position: relative;
+  border: 1px solid #EEEEEE;
+}
+.question-action-view{
+    float: left;
+    width: 7%;
+    padding: 10px;
+}
+.question-main-sec{
+   border: 1px solid #EEEEEE;
+}
+.bg-green{
+  background-color: #4DA661 !important;
+}
+.bg-danger{
+  background-color: #EC6C6C !important;
+}
+.no-section{
+  padding-left: 2%;
+}
+/**** Complated forms ******/
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+/*
+Change Quick Sidebar Width
+*/
+
+/*
+.page-quick-sidebar-wrapper {
+  right: -370px;
+  width: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content .page-footer {
+  margin-right: 370px;
+  margin-left: -370px;
+}
+
+.page-sidebar-reversed.page-quick-sidebar-open.page-quick-sidebar-push-content .page-sidebar-wrapper {
+  margin-right: 370px;
+}
+
+.page-quick-sidebar-open.page-quick-sidebar-push-content.page-quick-sidebar-full-height .page-header {
+  margin-left: -370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-list {
+  width: 370px !important;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item {
+  width: 370px !important;
+  margin-left: 370px;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-content-item-shown .page-quick-sidebar-list {
+  margin-left: -370px;
+}
+*/
